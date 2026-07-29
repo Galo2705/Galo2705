@@ -1,0 +1,115 @@
+<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Yehonatan Galo — trading systems, knowledge engines, agent orchestration">
+  <defs>
+    <radialGradient id="glowL" cx="0.82" cy="0.18" r="0.75">
+      <stop offset="0%" stop-color="#c2410c" stop-opacity="0.07"/>
+      <stop offset="45%" stop-color="#c2410c" stop-opacity="0.025"/>
+      <stop offset="100%" stop-color="#c2410c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dotsL" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#1c1917" fill-opacity="0.05"/>
+    </pattern>
+    <clipPath id="cardL"><rect width="1200" height="460" rx="18"/></clipPath>
+    <style>
+      .nameL { font: 700 58px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #1c1917; letter-spacing: -1.5px; }
+      .overL { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #78716c; letter-spacing: 3.5px; }
+      .roleL { font: 400 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #57534e; letter-spacing: -0.2px; }
+      .metaL { font: 500 11.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #a8a29e; letter-spacing: 2.6px; }
+      .tlabL { font: 600 10.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #a8a29e; letter-spacing: 2px; }
+      .tcmdL { font: 500 13.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #78716c; }
+      .tkeyL { font: 400 13.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #57534e; font-variant-numeric: tabular-nums; }
+      .tvalL { font: 500 13.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #1c1917; font-variant-numeric: tabular-nums; }
+      .tokL  { fill: #c2410c; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#cardL)">
+    <rect width="1200" height="460" fill="#f4f1ea"/>
+    <rect width="1200" height="460" fill="url(#dotsL)"/>
+    <g>
+      <rect width="1200" height="460" fill="url(#glowL)"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -34 14; 0 0" dur="16s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="459" rx="17.5" stroke="#1c1917" stroke-opacity="0.10"/>
+
+  <!-- left: identity -->
+  <g transform="translate(72, 0)">
+    <circle cx="4" cy="141" r="3.5" fill="#c2410c">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="18" y="146" class="overL">YEHONATAN GALO · JERUSALEM</text>
+
+    <text x="0" y="216" class="nameL">Systems that earn</text>
+    <text x="0" y="278" class="nameL">their conclusions.</text>
+
+    <g transform="translate(0, 330)">
+      <rect x="0" y="-15" width="3" height="20" rx="1.5" fill="#c2410c"/>
+      <text x="16" y="1" class="roleL" opacity="0">
+        Trading research infrastructure — measured, never assumed
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.22;0.25;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+      </text>
+      <text x="16" y="1" class="roleL" opacity="0">
+        Knowledge engines built from raw video, filings and ticks
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.22;0.25;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+      </text>
+      <text x="16" y="1" class="roleL" opacity="0">
+        Multi-agent orchestration with adversarial review
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.22;0.25;1" dur="12s" begin="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="16" y="1" class="roleL" opacity="0">
+        Local-first pipelines that run 24/7 at $0 inference
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.22;0.25;1" dur="12s" begin="9s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <text x="0" y="404" class="metaL">TRADING SYSTEMS&#160;&#160;·&#160;&#160;KNOWLEDGE GRAPHS&#160;&#160;·&#160;&#160;AGENT ORCHESTRATION</text>
+  </g>
+
+  <!-- right: status terminal -->
+  <g transform="translate(768, 96)">
+    <rect x="0" y="0" width="360" height="268" rx="14" fill="#fffdf8"/>
+    <rect x="0.5" y="0.5" width="359" height="267" rx="13.5" stroke="#1c1917" stroke-opacity="0.12"/>
+
+    <circle cx="24" cy="26" r="4.5" fill="#ff5f57" fill-opacity="0.9"/>
+    <circle cx="42" cy="26" r="4.5" fill="#febc2e" fill-opacity="0.9"/>
+    <circle cx="60" cy="26" r="4.5" fill="#28c840" fill-opacity="0.9"/>
+    <text x="336" y="30" text-anchor="end" class="tlabL">STATUS</text>
+
+    <g transform="translate(28, 68)">
+      <text x="0" y="0" class="tcmdL" opacity="0"><tspan class="tokL">$</tspan> systems --status
+        <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.4s" fill="freeze"/>
+      </text>
+      <g opacity="0">
+        <circle cx="5" cy="31" r="3" fill="#16a34a"/>
+        <text x="18" y="36" class="tkeyL">research engines</text>
+        <text x="304" y="36" text-anchor="end" class="tvalL">12 online</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.9s" fill="freeze"/>
+      </g>
+      <g opacity="0">
+        <circle cx="5" cy="63" r="3" fill="#16a34a"/>
+        <text x="18" y="68" class="tkeyL">nightly backtests</text>
+        <text x="304" y="68" text-anchor="end" class="tvalL">03:40 UTC</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.25s" fill="freeze"/>
+      </g>
+      <g opacity="0">
+        <circle cx="5" cy="95" r="3" fill="#16a34a"/>
+        <text x="18" y="100" class="tkeyL">live dashboards</text>
+        <text x="304" y="100" text-anchor="end" class="tvalL">10+</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.6s" fill="freeze"/>
+      </g>
+      <g opacity="0">
+        <circle cx="5" cy="127" r="3" fill="#d97706"/>
+        <text x="18" y="132" class="tkeyL">edge gates</text>
+        <text x="304" y="132" text-anchor="end" class="tvalL">enforced</text>
+        <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.95s" fill="freeze"/>
+      </g>
+      <g opacity="0">
+        <text x="0" y="168" class="tcmdL"><tspan class="tokL">$</tspan> </text>
+        <rect x="22" y="156" width="8.5" height="16" fill="#c2410c">
+          <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="2.5s" repeatCount="indefinite"/>
+        </rect>
+        <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.4s" fill="freeze"/>
+      </g>
+    </g>
+  </g>
+</svg>
