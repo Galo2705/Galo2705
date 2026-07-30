@@ -22,14 +22,30 @@ without its source.**
 
 ## Selected work
 
+### Research engines
+
 | System | What it does |
 |:--|:--|
-| **Cockpit** | Unified command center for every engine — live dashboards, alert routing with dedup and budgets, margin guard, performance analytics that show `—` instead of inventing a number. |
+| **Wyckoff engine** | Full-market crypto scanner: Top-30 universe on 1h/4h with structural range logic. Analysis runs on closed candles by design; live WebSocket pricing is display-only. A position monitor re-rules every open trade and pushes only when the ruling changes. Latest audit — 19 agents in parallel — traced 79% of drawdown to a single risk-sizing rule; findings route back through the lab, never straight to prod. |
+| **Fundamental engine** | Ticker → 26 KPIs in five layers. Every threshold is traced to the exact source frame it came from; fundamentals pulled from SEC EDGAR XBRL (mapped period-first) plus market data APIs. |
+| **Council** | Multi-engine deliberation: one ticker, five independent research engines in parallel, a contradiction matrix, then a designated skeptic ruling on net R:R. Disagreement between engines is the signal, not a bug. |
+| **sportsbrain** | Pricing engine for sport prediction markets, tennis first: point-level Markov model corrected for intra-match correlation. Its most valuable result was negative — an identical price gap across every match turned out to be model error, not edge (0 structural arbs in 143 markets scanned). |
+
+### Decision infrastructure
+
+| System | What it does |
+|:--|:--|
 | **Backtest Lab** | Nightly, fully automated backtesting with per-asset-class cost models. Strategy changes pass 10 gates before adoption. It once found that a strategy's entire "edge" was the commission model — verdict flipped to `NO_EDGE`. That's the point. |
-| **Council** | Multi-engine deliberation: one ticker, five independent research engines in parallel, a contradiction matrix, then a designated skeptic. Disagreement between engines is the signal, not a bug. |
-| **video2brain** | Anchor-first pipeline: video → whisper.cpp → five-layer knowledge vault. Every extracted claim carries the exact quote it came from, scored 0–100 by a QA pass. No anchor, no claim. |
-| **graphify** | Local-first code knowledge-graph CLI — maps a codebase into a queryable graph with god-node detection, community clustering, and an EXTRACTED / INFERRED / AMBIGUOUS audit trail. Deterministic and free in code-only mode. |
 | **Execution layer** | Paper-first broker execution behind an edge gate: an engine gets live capital only after its verdict survives statistical review. 57 tests, and the gate has said "no" more often than "yes". |
+| **Cockpit** | Unified command center for every engine — live dashboards, alert routing with dedup and budgets, margin guard, performance analytics that show `—` instead of inventing a number. |
+
+### Knowledge & tooling
+
+| System | What it does |
+|:--|:--|
+| **video2brain** | Anchor-first pipeline: video → whisper.cpp → five-layer knowledge vault. Every extracted claim carries the exact quote it came from, scored 0–100 by a QA pass. No anchor, no claim. Feeds a fleet of 12+ domain knowledge vaults. |
+| **graphify** | Local-first code knowledge-graph CLI — maps a codebase into a queryable graph with god-node detection, community clustering, and an EXTRACTED / INFERRED / AMBIGUOUS audit trail. Deterministic and free in code-only mode. |
+| **OTE Master** | Six-module ICT / price-action indicator in Pine Script, running live on TradingView — OTE zones, session levels, structure breaks — built and iterated through an automated deployment loop. |
 
 <br>
 
