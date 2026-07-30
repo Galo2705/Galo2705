@@ -26,7 +26,7 @@
   <text x="72" y="58" class="mOver">SYSTEM MAP</text>
   <text x="72" y="92" class="mTitle">From raw data to verified decisions</text>
   <g transform="translate(1020, 78)">
-    <circle cx="0" cy="0" r="3" fill="#30d158">
+    <circle cx="0" cy="0" r="3" fill="#a78bfa">
       <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
     </circle>
     <text x="12" y="4" class="mLeg">DATA FLOW</text>
@@ -52,7 +52,7 @@
   </g>
 
   <!-- flowing dots -->
-  <g fill="#30d158">
+  <g fill="#a78bfa">
     <circle r="2.6"><animateMotion dur="2.8s" begin="0s"    repeatCount="indefinite"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.8s" begin="0s" repeatCount="indefinite"/></circle>
     <circle r="2.6"><animateMotion dur="2.8s" begin="0.9s"  repeatCount="indefinite"><mpath href="#p2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.8s" begin="0.9s" repeatCount="indefinite"/></circle>
     <circle r="2.6"><animateMotion dur="2.8s" begin="1.7s"  repeatCount="indefinite"><mpath href="#p3"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.8s" begin="1.7s" repeatCount="indefinite"/></circle>
@@ -84,9 +84,9 @@
 
   <!-- KNOWLEDGE ENGINES -->
   <g>
-    <rect x="352" y="156" width="250" height="276" rx="12" fill="#30d158" fill-opacity="0.045"/>
-    <rect x="352.5" y="156.5" width="249" height="275" rx="11.5" stroke="#30d158" stroke-opacity="0.22"/>
-    <circle cx="376" cy="188" r="3.5" fill="#30d158">
+    <rect x="352" y="156" width="250" height="276" rx="12" fill="#a78bfa" fill-opacity="0.045"/>
+    <rect x="352.5" y="156.5" width="249" height="275" rx="11.5" stroke="#a78bfa" stroke-opacity="0.22"/>
+    <circle cx="376" cy="188" r="3.5" fill="#a78bfa">
       <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
     </circle>
     <text x="390" y="193" class="mBox">12 research engines</text>

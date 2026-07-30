@@ -1,0 +1,32 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="68%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.16"/>
+      <stop offset="45%" stop-color="#7c3aed" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="markGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c9c9d6"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <!-- bg: near-black with a faint purple wash -->
+  <rect width="1024" height="1024" fill="#0a0a10"/>
+  <rect width="1024" height="1024" fill="url(#bgGlow)"/>
+
+  <!-- hairline ring for the circular crop -->
+  <circle cx="512" cy="512" r="466" fill="none" stroke="#a78bfa" stroke-opacity="0.10" stroke-width="3"/>
+
+  <!-- G monogram: flat terminals, gradient stroke -->
+  <path d="M 682.3 309.0
+           A 265 265 0 1 0 715.0 682.3"
+        fill="none" stroke="url(#markGrad)" stroke-width="96" stroke-linecap="butt"/>
+
+  <!-- bar in purple gradient, flat ends -->
+  <rect x="524" y="464" width="266" height="96" fill="url(#barGrad)"/>
+</svg>
