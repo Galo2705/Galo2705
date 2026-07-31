@@ -2,16 +2,16 @@
   <defs>
     <clipPath id="stackCard"><rect width="1200" height="170" rx="18"/></clipPath>
     <style>
-      .sCol { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; letter-spacing: 2px; }
-      .sItm { font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #c9d1d9; }
-      .sDot { fill: #a78bfa; }
+      .sCol { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #78716c; letter-spacing: 2px; }
+      .sItm { font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #1c1917; }
+      .sDot { fill: #7c3aed; }
     </style>
   </defs>
 
   <g clip-path="url(#stackCard)">
-    <rect width="1200" height="170" fill="#0b0e12"/>
+    <rect width="1200" height="170" fill="#f4f1ea"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="169" rx="17.5" stroke="#ffffff" stroke-opacity="0.09"/>
+  <rect x="0.5" y="0.5" width="1199" height="169" rx="17.5" stroke="#1c1917" stroke-opacity="0.12"/>
 
   <g transform="translate(72, 52)">
     <text x="0" y="0" class="sCol">LANGUAGES</text>
@@ -19,7 +19,7 @@
     <text x="0" y="62" class="sItm">Pine Script · Bash</text>
   </g>
 
-  <rect x="352" y="40" width="1" height="90" fill="#ffffff" fill-opacity="0.07"/>
+  <rect x="352" y="40" width="1" height="90" fill="#1c1917" fill-opacity="0.12"/>
 
   <g transform="translate(392, 52)">
     <text x="0" y="0" class="sCol">RUNTIME &amp; DATA</text>
@@ -27,7 +27,7 @@
     <text x="0" y="62" class="sItm">SQLite · Redis</text>
   </g>
 
-  <rect x="672" y="40" width="1" height="90" fill="#ffffff" fill-opacity="0.07"/>
+  <rect x="672" y="40" width="1" height="90" fill="#1c1917" fill-opacity="0.12"/>
 
   <g transform="translate(712, 52)">
     <text x="0" y="0" class="sCol">AI · LOCAL-FIRST</text>
@@ -35,7 +35,7 @@
     <text x="0" y="62" class="sItm">Claude agents · RAG</text>
   </g>
 
-  <rect x="992" y="40" width="1" height="90" fill="#ffffff" fill-opacity="0.07"/>
+  <rect x="992" y="40" width="1" height="90" fill="#1c1917" fill-opacity="0.12"/>
 
   <g transform="translate(1032, 52)">
     <text x="0" y="0" class="sCol">OPS</text>

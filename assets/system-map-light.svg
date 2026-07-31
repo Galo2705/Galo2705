@@ -1,32 +1,32 @@
 <svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System map: raw data flows through knowledge engines and validation gates into dashboards and execution">
   <defs>
     <linearGradient id="mapInset" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="6%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="mapCard"><rect width="1200" height="620" rx="18"/></clipPath>
     <style>
-      .mOver { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; letter-spacing: 3px; }
-      .mTitle{ font: 700 28px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #f5f5f7; letter-spacing: -0.6px; }
-      .mCol  { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; letter-spacing: 2px; }
-      .mBox  { font: 600 19px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #e6edf3; letter-spacing: -0.2px; }
-      .mSub  { font: 400 15.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }
-      .mChip { font: 500 14.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #9aa4b2; }
-      .mLeg  { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #8b949e; letter-spacing: 1px; }
+      .mOver { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #57534e; letter-spacing: 3px; }
+      .mTitle{ font: 700 28px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #1c1917; letter-spacing: -0.6px; }
+      .mCol  { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #57534e; letter-spacing: 2px; }
+      .mBox  { font: 600 19px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #1c1917; letter-spacing: -0.2px; }
+      .mSub  { font: 400 15.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #57534e; }
+      .mChip { font: 500 14.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #57534e; }
+      .mLeg  { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #57534e; letter-spacing: 1px; }
     </style>
   </defs>
 
   <g clip-path="url(#mapCard)">
-    <rect width="1200" height="620" fill="#0b0e12"/>
+    <rect width="1200" height="620" fill="#f4f1ea"/>
     <rect width="1200" height="620" fill="url(#mapInset)"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="619" rx="17.5" stroke="#ffffff" stroke-opacity="0.09"/>
+  <rect x="0.5" y="0.5" width="1199" height="619" rx="17.5" stroke="#1c1917" stroke-opacity="0.12"/>
 
   <!-- header -->
   <text x="72" y="58" class="mOver">SYSTEM MAP</text>
   <text x="72" y="92" class="mTitle">From raw data to verified decisions</text>
   <g transform="translate(1010, 78)">
-    <circle cx="0" cy="0" r="3" fill="#a78bfa">
+    <circle cx="0" cy="0" r="3" fill="#7c3aed">
       <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
     </circle>
     <text x="12" y="4" class="mLeg">DATA FLOW</text>
@@ -39,7 +39,7 @@
   <text x="958" y="136" class="mCol">OUTPUTS</text>
 
   <!-- connectors (drawn under boxes) -->
-  <g stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.5" fill="none">
+  <g stroke="#1c1917" stroke-opacity="0.16" stroke-width="1.5" fill="none">
     <path id="p1" d="M 282 194 C 322 194, 312 226, 352 232"/>
     <path id="p2" d="M 282 294 C 322 294, 312 290, 352 288"/>
     <path id="p3" d="M 282 394 C 322 394, 312 350, 352 344"/>
@@ -52,7 +52,7 @@
   </g>
 
   <!-- flowing dots -->
-  <g fill="#a78bfa">
+  <g fill="#7c3aed">
     <circle r="2.6"><animateMotion dur="2.8s" begin="0s"    repeatCount="indefinite"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.8s" begin="0s" repeatCount="indefinite"/></circle>
     <circle r="2.6"><animateMotion dur="2.8s" begin="0.9s"  repeatCount="indefinite"><mpath href="#p2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.8s" begin="0.9s" repeatCount="indefinite"/></circle>
     <circle r="2.6"><animateMotion dur="2.8s" begin="1.7s"  repeatCount="indefinite"><mpath href="#p3"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="2.8s" begin="1.7s" repeatCount="indefinite"/></circle>
@@ -66,27 +66,27 @@
 
   <!-- INPUTS -->
   <g>
-    <rect x="72" y="156" width="210" height="76" rx="12" fill="#ffffff" fill-opacity="0.028"/>
-    <rect x="72.5" y="156.5" width="209" height="75" rx="11.5" stroke="#ffffff" stroke-opacity="0.09"/>
+    <rect x="72" y="156" width="210" height="76" rx="12" fill="#fffdf8"/>
+    <rect x="72.5" y="156.5" width="209" height="75" rx="11.5" stroke="#1c1917" stroke-opacity="0.12"/>
     <text x="92" y="190" class="mBox">Market data</text>
     <text x="92" y="214" class="mSub">ticks · order books</text>
 
-    <rect x="72" y="256" width="210" height="76" rx="12" fill="#ffffff" fill-opacity="0.028"/>
-    <rect x="72.5" y="256.5" width="209" height="75" rx="11.5" stroke="#ffffff" stroke-opacity="0.09"/>
+    <rect x="72" y="256" width="210" height="76" rx="12" fill="#fffdf8"/>
+    <rect x="72.5" y="256.5" width="209" height="75" rx="11.5" stroke="#1c1917" stroke-opacity="0.12"/>
     <text x="92" y="290" class="mBox">Video &amp; audio</text>
     <text x="92" y="314" class="mSub">whisper.cpp · frames</text>
 
-    <rect x="72" y="356" width="210" height="76" rx="12" fill="#ffffff" fill-opacity="0.028"/>
-    <rect x="72.5" y="356.5" width="209" height="75" rx="11.5" stroke="#ffffff" stroke-opacity="0.09"/>
+    <rect x="72" y="356" width="210" height="76" rx="12" fill="#fffdf8"/>
+    <rect x="72.5" y="356.5" width="209" height="75" rx="11.5" stroke="#1c1917" stroke-opacity="0.12"/>
     <text x="92" y="390" class="mBox">Filings &amp; macro</text>
     <text x="92" y="414" class="mSub">SEC EDGAR · news</text>
   </g>
 
   <!-- KNOWLEDGE ENGINES -->
   <g>
-    <rect x="352" y="156" width="250" height="276" rx="12" fill="#a78bfa" fill-opacity="0.045"/>
-    <rect x="352.5" y="156.5" width="249" height="275" rx="11.5" stroke="#a78bfa" stroke-opacity="0.22"/>
-    <circle cx="376" cy="190" r="3.5" fill="#a78bfa">
+    <rect x="352" y="156" width="250" height="276" rx="12" fill="#7c3aed" fill-opacity="0.045"/>
+    <rect x="352.5" y="156.5" width="249" height="275" rx="11.5" stroke="#7c3aed" stroke-opacity="0.22"/>
+    <circle cx="376" cy="190" r="3.5" fill="#7c3aed">
       <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
     </circle>
     <text x="390" y="196" class="mBox">12 research engines</text>
@@ -94,18 +94,18 @@
     <text x="376" y="245" class="mSub">closed learning loops</text>
 
     <g transform="translate(376, 268)">
-      <rect x="0" y="0" width="98" height="32" rx="8" fill="#ffffff" fill-opacity="0.04"/>
-      <rect x="0.5" y="0.5" width="97" height="31" rx="7.5" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect x="0" y="0" width="98" height="32" rx="8" fill="#1c1917" fill-opacity="0.04"/>
+      <rect x="0.5" y="0.5" width="97" height="31" rx="7.5" stroke="#1c1917" stroke-opacity="0.10"/>
       <text x="49" y="21" text-anchor="middle" class="mChip">wyckoff</text>
-      <rect x="106" y="0" width="98" height="32" rx="8" fill="#ffffff" fill-opacity="0.04"/>
-      <rect x="106.5" y="0.5" width="97" height="31" rx="7.5" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect x="106" y="0" width="98" height="32" rx="8" fill="#1c1917" fill-opacity="0.04"/>
+      <rect x="106.5" y="0.5" width="97" height="31" rx="7.5" stroke="#1c1917" stroke-opacity="0.10"/>
       <text x="155" y="21" text-anchor="middle" class="mChip">ict / smc</text>
 
-      <rect x="0" y="42" width="134" height="32" rx="8" fill="#ffffff" fill-opacity="0.04"/>
-      <rect x="0.5" y="42.5" width="133" height="31" rx="7.5" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect x="0" y="42" width="134" height="32" rx="8" fill="#1c1917" fill-opacity="0.04"/>
+      <rect x="0.5" y="42.5" width="133" height="31" rx="7.5" stroke="#1c1917" stroke-opacity="0.10"/>
       <text x="67" y="63" text-anchor="middle" class="mChip">fundamentals</text>
-      <rect x="142" y="42" width="82" height="32" rx="8" fill="#ffffff" fill-opacity="0.04"/>
-      <rect x="142.5" y="42.5" width="81" height="31" rx="7.5" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect x="142" y="42" width="82" height="32" rx="8" fill="#1c1917" fill-opacity="0.04"/>
+      <rect x="142.5" y="42.5" width="81" height="31" rx="7.5" stroke="#1c1917" stroke-opacity="0.10"/>
       <text x="183" y="63" text-anchor="middle" class="mChip">macro</text>
     </g>
 
@@ -115,43 +115,43 @@
 
   <!-- VALIDATION -->
   <g>
-    <rect x="672" y="156" width="240" height="84" rx="12" fill="#ffffff" fill-opacity="0.028"/>
-    <rect x="672.5" y="156.5" width="239" height="83" rx="11.5" stroke="#ffffff" stroke-opacity="0.09"/>
+    <rect x="672" y="156" width="240" height="84" rx="12" fill="#fffdf8"/>
+    <rect x="672.5" y="156.5" width="239" height="83" rx="11.5" stroke="#1c1917" stroke-opacity="0.12"/>
     <text x="692" y="192" class="mBox">Backtest lab</text>
     <text x="692" y="218" class="mSub">nightly · real costs · 10 gates</text>
 
-    <rect x="672" y="262" width="240" height="84" rx="12" fill="#ffffff" fill-opacity="0.028"/>
-    <rect x="672.5" y="262.5" width="239" height="83" rx="11.5" stroke="#ffffff" stroke-opacity="0.09"/>
+    <rect x="672" y="262" width="240" height="84" rx="12" fill="#fffdf8"/>
+    <rect x="672.5" y="262.5" width="239" height="83" rx="11.5" stroke="#1c1917" stroke-opacity="0.12"/>
     <text x="692" y="298" class="mBox">Council</text>
     <text x="692" y="324" class="mSub">5 engines → skeptic → net R:R</text>
 
-    <rect x="672" y="368" width="240" height="84" rx="12" fill="#a78bfa" fill-opacity="0.10"/>
-    <rect x="672.5" y="368.5" width="239" height="83" rx="11.5" stroke="#a78bfa" stroke-opacity="0.40"/>
+    <rect x="672" y="368" width="240" height="84" rx="12" fill="#7c3aed" fill-opacity="0.10"/>
+    <rect x="672.5" y="368.5" width="239" height="83" rx="11.5" stroke="#7c3aed" stroke-opacity="0.40"/>
     <text x="692" y="404" class="mBox">Edge gate</text>
     <text x="692" y="430" class="mSub">no live capital without an edge</text>
   </g>
 
   <!-- OUTPUTS -->
   <g>
-    <rect x="958" y="156" width="170" height="60" rx="12" fill="#ffffff" fill-opacity="0.028"/>
-    <rect x="958.5" y="156.5" width="169" height="59" rx="11.5" stroke="#ffffff" stroke-opacity="0.09"/>
+    <rect x="958" y="156" width="170" height="60" rx="12" fill="#fffdf8"/>
+    <rect x="958.5" y="156.5" width="169" height="59" rx="11.5" stroke="#1c1917" stroke-opacity="0.12"/>
     <text x="978" y="182" class="mBox">Cockpit</text>
     <text x="978" y="204" class="mSub">command center</text>
 
-    <rect x="958" y="256" width="170" height="60" rx="12" fill="#ffffff" fill-opacity="0.028"/>
-    <rect x="958.5" y="256.5" width="169" height="59" rx="11.5" stroke="#ffffff" stroke-opacity="0.09"/>
+    <rect x="958" y="256" width="170" height="60" rx="12" fill="#fffdf8"/>
+    <rect x="958.5" y="256.5" width="169" height="59" rx="11.5" stroke="#1c1917" stroke-opacity="0.12"/>
     <text x="978" y="282" class="mBox">Alerts</text>
     <text x="978" y="304" class="mSub">push · dedup · budget</text>
 
-    <rect x="958" y="356" width="170" height="60" rx="12" fill="#ffffff" fill-opacity="0.028"/>
-    <rect x="958.5" y="356.5" width="169" height="59" rx="11.5" stroke="#ffffff" stroke-opacity="0.09"/>
+    <rect x="958" y="356" width="170" height="60" rx="12" fill="#fffdf8"/>
+    <rect x="958.5" y="356.5" width="169" height="59" rx="11.5" stroke="#1c1917" stroke-opacity="0.12"/>
     <text x="978" y="382" class="mBox">Execution</text>
     <text x="978" y="404" class="mSub">paper-first · 57 tests</text>
   </g>
 
   <!-- footer note -->
   <g transform="translate(72, 520)">
-    <rect x="0" y="0" width="1056" height="1" fill="#ffffff" fill-opacity="0.07"/>
+    <rect x="0" y="0" width="1056" height="1" fill="#1c1917" fill-opacity="0.12"/>
     <text x="0" y="38" class="mSub">Learning loops run both ways: trade outcomes and backtest verdicts feed back into every engine, nightly.</text>
     <g transform="translate(1056, 34)">
       <text x="0" y="0" text-anchor="end" class="mLeg">24/7 · LOCAL-FIRST · $0</text>
