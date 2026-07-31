@@ -48,7 +48,6 @@ the market has, and the pages below say so out loud.
 | System | What it does |
 |:--|:--|
 | **video2brain** | **Video → knowledge vault.** whisper.cpp transcription into five-layer vaults; every claim carries its exact source quote, QA-scored 0–100. `powers 12+ domain vaults` |
-| **graphify** | **Codebase → queryable knowledge graph.** God-node detection, community clustering, EXTRACTED / INFERRED / AMBIGUOUS audit trail. `deterministic · $0 in code-only mode` |
 | **OTE Master** | **Live TradingView indicator.** Six ICT / price-action modules in Pine Script — OTE zones, session levels, structure breaks — shipped through an automated deployment loop. |
 
 <br>
