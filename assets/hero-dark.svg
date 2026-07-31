@@ -50,11 +50,11 @@
       <rect x="0" y="-15" width="3" height="20" rx="1.5" fill="#a78bfa"/>
       <text x="16" y="1" class="role" opacity="1">
         Trading research infrastructure — measured, never assumed
-        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.92;1" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.46;0.485;0.955;0.98" dur="12s" repeatCount="indefinite"/>
       </text>
       <text x="16" y="1" class="role" opacity="0">
         Knowledge engines built from raw video, filings and ticks
-        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.5;0.92;1" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.485;0.955;0.98" dur="12s" repeatCount="indefinite"/>
       </text>
     </g>
 
