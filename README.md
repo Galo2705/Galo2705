@@ -48,7 +48,7 @@ the market has, and the pages below say so out loud.
 | System | What it does |
 |:--|:--|
 | **video2brain** | **Video → knowledge vault.** whisper.cpp transcription into five-layer vaults; every claim carries its exact source quote, QA-scored 0–100. `powers 12+ domain vaults` |
-| **OTE Master** | **Live TradingView indicator.** Six ICT / price-action modules in Pine Script — OTE zones, session levels, structure breaks — shipped through an automated deployment loop. |
+| [**OTE Master**](https://github.com/Galo2705/ote-master) | **Live TradingView indicator — open source.** Six ICT / price-action modules in Pine Script v6: trend fibs, OTE projections, liquidity sweeps, session deviations. `code + chart in the repo` |
 
 <br>
 
